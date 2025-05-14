@@ -2,7 +2,9 @@
 
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton, BotCommand
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
-import sqlite3, asyncio, nest_asyncio
+import sqlite3, asyncio, nest_asyncio 
+import os
+
 
 # === НАСТРОЙКИ ===
 TOKEN = os.environ.get("TOKEN")
