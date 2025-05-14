@@ -5,7 +5,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 import sqlite3, asyncio, nest_asyncio 
 import os
 
-
 # === НАСТРОЙКИ ===
 TOKEN = os.environ.get("TOKEN")
 ADMIN_ID = int(os.environ.get("ADMIN_ID"))
